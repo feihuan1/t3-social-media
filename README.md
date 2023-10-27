@@ -19,3 +19,6 @@
 11. build activity page to notify user when they have a reply, creat getActivity function in backend to get all comments in User
 12. add webhook listen to web events, add community page,
 13. fix mongo alta error by adding ip address
+
+# live demo 
+https://t3-social-media-fart.vercel.app/
