@@ -58,8 +58,8 @@ const Comment = ({threadId, currentUserImg, currentUserId}: Props) => {
           name="thread"
           render={({ field }) => (
             <FormItem className="flex w-full items-center gap-3">
-              <FormLabel >
-                <Image src={currentUserImg} alt='Profile image' width={48} height={48} className="rounded-full object-contain" />
+              <FormLabel className="rounded-full overflow-hidden !w-12 !h-12 " >
+                <Image src={currentUserImg} alt='Profile image' width={48} height={48} className="object-contain "  />
               </FormLabel>
               <FormControl className="border-none bg-transparent">
                 <Input 

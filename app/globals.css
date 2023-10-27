@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  user-select: none;
+}
+
+.greenBorder{
+  border: 2px green solid;
+}
+.yellowBorder{
+  border: 2px yellow solid;
+}
+.redBorder{
+  border: 2px red solid;
+}
+
 @layer components {
   /* main */
   .main-container {
