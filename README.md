@@ -17,3 +17,5 @@
 9. create thread page dynamicly, create fetchThreadById funtion to get single tread and call it in the page
 10. build search page, call fetchUsers(not fetchUser) in backend at lib/action display depends on user query, click on user push router profile page
 11. build activity page to notify user when they have a reply, creat getActivity function in backend to get all comments in User
+12. add webhook listen to web events, add community page,
+13. fix mongo alta error by adding ip address
