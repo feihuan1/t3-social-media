@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
   user-select: none;
-}
+} */
 
 .greenBorder{
   border: 2px green solid;
